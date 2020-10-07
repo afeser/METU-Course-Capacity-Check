@@ -23,7 +23,7 @@ var check = function(){
 
       console.log('Ders BULUNDU!')
 
-      var a = new Audio("hhttps://raw.githubusercontent.com/afeser/METU-Course-Capacity-Check/main/aaa.mp3");
+      var a = new Audio("https://raw.githubusercontent.com/afeser/METU-Course-Capacity-Check/main/aaa.mp3");
       a.play();
     }
   }
