@@ -1,3 +1,4 @@
+
 var total = 0;
 
 var check = function(){
@@ -6,6 +7,7 @@ var check = function(){
   var num_columns = 8;
   var capacity_index = 6;
   var used_capacity_index = 7;
+  var kontrol_araligi = 40;
 
 
   console.log('Deneme', total);
@@ -29,7 +31,7 @@ var check = function(){
   document.getElementById('submitSearchForm').click();
   total = total + 1;
 
-  setTimeout(check, 40000); // wait 25 seconds(takes 25 seconds for me...), to refresh page... TODO : dynamic decision would be great!
+  setTimeout(check, kontrol_araligi*1000); // wait X seconds(loading of page takes X seconds for me...), to refresh page... TODO : dynamic decision would be great!
 }
 
 check();
